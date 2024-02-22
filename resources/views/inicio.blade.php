@@ -44,7 +44,43 @@
         }
         .call-icon {
             float: right;
+            footer {
+            background-color: #333; /* Color de fondo del pie de página */
+            color: #fff; /* Color del texto del pie de página */
+            padding: 20px; /* Espaciado interno del pie de página */
+            }
         }
+        .footer1 {
+    background-color: #123456;
+    color: #fff;
+    padding: 20px;
+}
+.footer2 {
+    background-color: #333333; /* Change this to your desired color */
+    color: #fff;
+    padding: 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-bottom1 {
+    background-color: #f5f5f5; /* Este es un color de fondo más claro */
+    color: #333; /* Asegúrate de cambiar también el color del texto para que sea legible */
+    padding: 20px;
+}
+
     </style>
 </head>
 <body>
@@ -72,5 +108,34 @@
             <div class="tempo-bar" id="barra"></div>
         </div>
     </section>
+    <footer class="footer1">
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>UNIDAD</h3>
+            <p>Unidad de Emprendimiento</p>
+        </div>
+        <div class="footer-column">
+            <h3>SEDES</h3>
+            <p>Latacunga</p>
+        </div>
+        <div class="footer-column">
+            <h3>DEPARTAMENTOS MATRIZ</h3>
+            <p>Ciencias de la Computación</p>
+            <p>Ciencias de la Tierra y de la Construcción</p>
+            <!-- Add more departments as needed -->
+        </div>
+        <div class="footer-column">
+            <h3>DEPARTAMENTOS LATACUNGA</h3>
+            <p>Ciencias Exactas</p>
+            <p>Energía y Mecánica</p>
+            <!-- Add more departments as needed -->
+        </div>
+    </div>
+</footer>
+<footer class="footer2">
+    <div class="footer-bottom2">
+        <p>© 2024 ESPE | Sede quito</p>
+    </div>
+</footer>
 </body>
 </html>
