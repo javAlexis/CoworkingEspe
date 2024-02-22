@@ -10,6 +10,16 @@
         body {
             font-family: Arial, sans-serif;
         }
+        .header-container {
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: #FFFFFF;
+            z-index: 1000;
+            /* Asegura que el contenedor esté por encima de otros elementos */
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        }
         .header {
             text-align: center;
             color: green;
@@ -19,36 +29,29 @@
             height: 100px;
             margin: 0px 0px 15px;
         }
-        body {
-            font-family: Arial, sans-serif;
-        }
         .navbar {
-            background-color: #FFFFFF;
             overflow: hidden;
             display: flex;
             justify-content: space-around;
             padding: 20px;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         }
+
         .navbar a {
             color: black;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
             border-radius: 25px;
-            font-size: 17px;
+            font-size: 14px;
         }
+
         .navbar a:hover {
             background-color: #ddd;
             color: black;
         }
+
         .call-icon {
             float: right;
-            footer {
-            background-color: #333; /* Color de fondo del pie de página */
-            color: #fff; /* Color del texto del pie de página */
-            padding: 20px; /* Espaciado interno del pie de página */
-            }
         }
         .footer1 {
     background-color: #123456;
@@ -84,9 +87,10 @@
     </style>
 </head>
 <body>
-    <div class="header">
-        <img src="IMAGENES/LOGO-ANIVERSARIO-ESPE-SEDE.png" alt="Logo Aniversario ESPE Sede">
-        <div class="navbar">
+        <div class="header-container">
+        <div class="header">
+            <img src="IMAGENES/LOGO-ANIVERSARIO-ESPE-SEDE.png" alt="Logo Aniversario ESPE Sede">
+            <div class="navbar">
             <a href="#inicio">INICIO</a>
             <a href="QuienesSomos.blade.php">QUIENES SOMOS &nbsp;<i class="fa-solid fa-house"></i></a>
             <a href="#servicios">SERVICIOS</a>
