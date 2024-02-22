@@ -79,10 +79,14 @@
     margin-top: 20px;
 }
 .footer-bottom1 {
+    
     background-color: #f5f5f5; /* Este es un color de fondo más claro */
     color: #333; /* Asegúrate de cambiar también el color del texto para que sea legible */
     padding: 20px;
 }
+
+
+
 
     </style>
 </head>
