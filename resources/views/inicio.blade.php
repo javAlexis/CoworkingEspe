@@ -126,7 +126,13 @@
             <h3>DEPARTAMENTOS MATRIZ</h3>
             <p>Ciencias de la Computación</p>
             <p>Ciencias de la Tierra y de la Construcción</p>
-            <p>Ciencias de la Tierra y de la Construcción</p>
+            <p>Ciencias de la Vida</p>
+            <p>Ciencias Económicas Administrativa y de Comercio</p>
+            <p>Ciencias Exactas</p>
+            <p>Ciencias Humanas y Sociales</p>
+            <p>Electricidad y Electrónica</p>
+            <p>Energía y Mecanica </p>
+            <p>Seguridad y Defensa</p>
             <!-- Add more departments as needed -->
         </div>
         <div class="footer-column">
