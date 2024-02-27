@@ -61,7 +61,7 @@ body {
             <a href="#servicios">SERVICIOS</a>
             <a href="#ubicacion">UBICACION</a>
             <a href="#reserva">RESERVA</a>
-            <a href="#verificacion">VERIFICACIONn</a>
+            <a href="#verificacion">VERIFICACION</a>
             <a href="#call" class="call-icon"><i class="fas fa-phone"></i></a>
           </div>
     </div><br><br>
