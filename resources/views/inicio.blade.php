@@ -126,6 +126,7 @@
             <h3>DEPARTAMENTOS MATRIZ</h3>
             <p>Ciencias de la Computación</p>
             <p>Ciencias de la Tierra y de la Construcción</p>
+            <p>Ciencias de la Tierra y de la Construcción</p>
             <!-- Add more departments as needed -->
         </div>
         <div class="footer-column">
