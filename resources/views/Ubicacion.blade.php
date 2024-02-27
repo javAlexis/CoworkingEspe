@@ -22,7 +22,6 @@
             left: 0;
             background-color: #FFFFFF;
             z-index: 1000;
-            /* Asegura que el contenedor esté por encima de otros elementos */
             box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         }
 
@@ -70,7 +69,7 @@
     padding: 20px;
 }
 .footer2 {
-    background-color: #333333; /* Change this to your desired color */
+    background-color: #333333;
     color: #fff;
     padding: 20px;
 }
@@ -90,8 +89,8 @@
     margin-top: 20px;
 }
 .footer-bottom1 {
-    background-color: #f5f5f5; /* Este es un color de fondo más claro */
-    color: #333; /* Asegúrate de cambiar también el color del texto para que sea legible */
+    background-color: #f5f5f5; 
+    color: #333; 
     padding: 20px;
 }
     </style>
@@ -138,7 +137,7 @@
             <h3>DEPARTAMENTOS MATRIZ</h3>
             <p>Ciencias de la Computación</p>
             <p>Ciencias de la Tierra y de la Construcción</p>
-            <!-- Add more departments as needed -->
+            
         </div>
         <div class="footer-column">
             <h3>DEPARTAMENTOS LATACUNGA</h3>
